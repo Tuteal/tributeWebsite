@@ -1,0 +1,113 @@
+/* Made by Aldrine Castro*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat Black',sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+section .content, .content1
+{
+    text-align: center;
+}
+section .content h2
+{
+    font-size: 30vh;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+/* Made by Aldrine Castro*/
+section .content p
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+}
+section .content a
+{
+    display: inline-block;
+    font-size: 15vh;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+/* Made by Aldrine Castro*/
+section:nth-child(1) .content h2
+{
+    background-image: url(src/images/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section:nth-child(2) .content h2
+{
+    background-image: url(src/images/finalgif.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Made by Aldrine Castro*/
+section:nth-child(3) .content h2
+{
+    background-image: url(src/images/tumblr_onyt4cGDsu1w10uuao2_r2_500.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section:nth-child(4) .content a
+{
+    background-image: url(src/images/e02513d3fd48347a9fe8e9e9c2b56d56.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img img
+{
+    border-radius: 50%;
+}
+.content1 h2
+/* Made by Aldrine Castro*/
+{
+    font-size: 20vh;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1em;
+    color: white;
+}
+.content1 a
+{
+    font-size: 5vh;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1em;
+    color: tomato;
+}
+/* Made by Aldrine Castro*/
+p
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    text-align: justify;
+}
